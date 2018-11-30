@@ -2,7 +2,7 @@ import requests
 import json
 import pymongo
 
-#连接数据库
+#连接数据库测试
 
 client=pymongo.MongoClient(host='localhost',port=27017)
 db=client.test
